@@ -1,0 +1,30 @@
+/* font-family: 'Lora', serif;
+font-family: 'Courgette', cursive;
+font-family: 'Allerta', sans-serif; */
+.titulo{
+  font-size: 45px;
+  font-family: 'Lora', serif;
+}
+.title-a{
+  font-size: 24px;
+  font-family: 'Courgette', cursive;
+}
+.DatosCuriosos {
+  font-size: 25px;
+  color:#7f1a64;
+  font-family: 'Lora', serif;
+}
+.DatoCurioso{
+  font-size: 15px;
+}
+.portada{
+  background-image: url('../images/teclasdoradas.jpg');
+  color: gold;
+}
+.menu{
+  color:black;
+  font-size: 12px;
+}
+body{
+  font-family: 'Allerta', sans-serif;
+}
