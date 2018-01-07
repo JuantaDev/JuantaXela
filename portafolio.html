@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JuantaDev Xela</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/juanta.css">
+  <link href="https://fonts.googleapis.com/css?family=Allerta|Courgette|Lora" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header" class="header contenedor">
+    <!-- logotipo -->
+    <figure class="logotipo">
+        <img src="images/logo.png" width="186" height="60" alt="Logo de JuantaDev">
+    </figure>
+      <nav class="menu"><!-- <menu> -->
+        <ul>
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a href="portafolio.html">Portafolio</a>
+          </li>
+          <li>
+              <a href="precios.html" target="_blank">Datos Curiosos</a>
+          </li>
+        </ul>
+      </nav>
+
+
+    </header>
+
+    <footer class="footer">
+
+      <div class="contenedor">
+        <div class="contacto">
+          <img src="images/logo.png"  alt="Logo de JuantaDev">
+          <a href="tel: +502 58559549"><strong>Teléfono</strong><span>58559549</span> </a>
+          <a href="mailto: contacto@JuantaDev.com"> <strong>E-mail</strong><span>me@JuantaDev.com </span> </a>
+      </div>
+
+        <form class="formulario">
+          <div class="col1">
+            <label for="nombre">Nombre:</label>
+            <input type="text" required="" name="nombre" placeholder="poné tu nombre" id="nombre">
+            <label for="email">E-mail</label>
+            <input type="email" required=""  name="email" id="email" placeholder="poné tu email">
+            <div class="sexo">
+              <label for="mujer">
+                <input type="radio" name="sexo" id="mujer" value="mujer" checked> Mujer
+              </label>
+              <label for="hoombre">
+                <input type="radio" name="sexo" id="mujer" value="hombre"> Hombre
+              </label>
+            </div>
+          </div>
+
+          <div class="col2">
+            <label for="cotizacion">
+              <input type="checkbox" name="intereses" value="cotizacion" id="cotizacion" checked >Cotización
+            </label>
+            <label for="reclamo">
+              <input type="checkbox" name="intereses" value="reclamos" id="reclamo">Reclamos
+            </label>
+            <label for="comentarios">
+              <input type="checkbox" name="intereses" value="comentarios" id="comentarios">Comentarios
+            </label>
+            <label for="otros">
+              <input type="checkbox" name="intereses" value="otros" id="otros">Otros
+            </label>
+          </div>
+
+          <div class="intereses">
+            <div class="ComentariosTA">
+              <label for="comentarios">Comentarios</label>
+              <textarea name="comentarios" id="comentarios" rows="7" cols="30"></textarea>
+              <!-- boton para enviar infoa servidor -->
+              <input type="submit" name="" value="Enviar" class="button"/>
+            </div>
+        </div>
+
+
+
+        </form>
+      </div>
+
+    </footer>
+
+  </body>
+</html>
