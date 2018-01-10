@@ -8,32 +8,33 @@
 <link href="https://fonts.googleapis.com/css?family=Allerta|Courgette|Lora" rel="stylesheet">
   </head>
   <body>
-    <header id="header" class="header contenedor">
-    <!-- logotipo -->
-    <figure class="logotipo">
-        <img src="images/logo.png" width="186" height="60" alt="Logo de JuantaDev">
-    </figure>
-      <nav class="menu"><!-- <menu> -->
-        <ul>
-          <li>
-              <a href="index.html">Home</a>
-          </li>
-          <li>
-              <a href="portafolio.html" target="_blank">Portafolio</a>
-          </li>
-          <li>
-              <a href="precios.html" target="_blank">Datos Curiosos</a>
-          </li>
-        </ul>
-      </nav>
-
-
-    </header>
     <section id="portada" class="portada"> <!--  portada -->
+      <header id="header" class="header contenedor">
+        <!-- logotipo -->
+        <figure class="logotipo">
+          <img src="images/logo.png" width="186" height="60" alt="Logo de JuantaDev">
+        </figure>
+        <nav class="menu"><!-- <menu> -->
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="portafolio.html" target="_blank">Portafolio</a>
+            </li>
+            <li>
+              <a href="precios.html" target="_blank">Datos Curiosos</a>
+            </li>
+          </ul>
+        </nav>
+
+
+      </header>
       <div class="contenedor">
-        <h1 class="titulo">Juanta Dev Xela</h1><!-- titulo -->
+        <h1 class="titulo">Juanta Dev <span>Xela</span></h1><!-- titulo -->
         <h3 class="title-a">Si no existe, lo inventamos</h3><!-- resumen -->
-        <button type="button" name="button" class="button">Conoce mas</button><!-- boton -->
+        <!-- <button type="button" name="button" class="button">Conoce mas</button><!-- boton -->
+        <a type="button" name="button" class="button" href="#form1">Conoce mas</a>
       </div>
 
     </section>
@@ -71,7 +72,7 @@
           <a href="mailto: contacto@JuantaDev.com"> <strong>E-mail</strong><span>me@JuantaDev.com </span> </a>
       </div>
 
-        <form class="formulario">
+        <form class="formulario" id="form1">
           <div class="col1">
             <label for="nombre">Nombre:</label>
             <input type="text" required="" name="nombre" placeholder="poné tu nombre" id="nombre">
